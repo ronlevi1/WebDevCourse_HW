@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+    <h1>Contact</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Send a Message</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Name:</td>
+                <td><input type="email"></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Phone:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Subject:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Message:</td>
+                <td><textarea></textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><button type="submit" onclick="myAlert()">Send Message</button></td>
+            </tr>
+
+        </tbody>
+    </table>
+    <script>
+        function myAlert() {
+            alert("Hello! I am an alert box!");
+        }
+    </script>
+</body>
+
+</html>
