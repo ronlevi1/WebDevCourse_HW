@@ -42,3 +42,16 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #e3f2fd;
 }
+
+
+.header {
+    color: white;
+    background-color: #1E90FF;
+}
+
+.highlight-row {
+    background-color: #B3E5FC;
+    font-size: 18px;
+    color: #0D47A1;
+    font-weight: bold;
+}
