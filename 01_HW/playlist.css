@@ -55,3 +55,13 @@ tr:hover {
     color: #0D47A1;
     font-weight: bold;
 }
+
+.hover-link {
+  text-decoration: none;    
+  color: #0D47A1;            
+  transition: color 0.3s ease; 
+}
+
+.hover-link:hover {
+  color: #64B5F6;            
+}
