@@ -45,3 +45,19 @@ td a {
 td a:hover {
     color: #64B5F6;
 }
+
+.nav {
+  text-align: center;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 10px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
