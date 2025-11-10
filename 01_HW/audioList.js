@@ -1,4 +1,4 @@
-const skins = ["./SKINS/basic.css", "./SKINS/dark.css", "./SKINS/modern.css"];
+const skins = ["./SKINS/basic.css", "./SKINS/dark.css", "./SKINS/modern.css", "audioList.css"];
 
 let currentSkin = 0;
 function changeTheme(){
